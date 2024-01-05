@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="RentAll Motors">
+    <meta property="og:description" content="A RentAll Motors é uma empresa especializada no aluguel de carros de luxo das marcas Audi, BMW e Mercedes-Benz. Além de oferecer uma frota exclusiva que combina desempenho superior a designs sofisticados, a empresa se destaca pelo compromisso em proporcionar uma experiência automotiva inigualável.">
+    <meta property="og:image" content="../Images/icone.png">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="Images/icone.ico">
+    <title> RentAll Motors </title>
+</head>
+
+<body>
+    <header>
+        <div id="audi" onclick="window.location.href='html/audi.html'">
+            <p class="marcas"> AUDI </p>
+            <button class="botao"> ENTRAR </button>
+        </div>
+
+        <div id="bmw" onclick="window.location.href='html/bmw.html'">
+            <p class="marcas"> BMW </p>
+            <button class="botao"> ENTRAR </button>
+        </div>
+
+        <div id="mercedes" onclick="window.location.href='html/mercedes.html'">
+            <p class="marcas"> MERCEDES </p>
+            <button class="botao"> ENTRAR </button>
+        </div>
+    </header>
+
+    <main>
+        <div id="Marca">
+            <p id="NomeDaMarca"> - Rent<span>All</span> Motors </p>
+            <img  id="Logo" src="Images/icone.png" />
+        </div>
+        
+        <div id="Main">
+            <div class="Descrição" id="QuemSomos">
+                <h3> Quem Somos? </h3>
+                <p> A RentAll Motors é uma empresa especializada no aluguel de carros de luxo das marcas Audi, BMW e
+                    Mercedes-Benz. Além de oferecer uma frota exclusiva que combina desempenho superior a designs
+                    sofisticados, a empresa se destaca pelo compromisso em proporcionar uma experiência automotiva
+                    inigualável. 
+                </p>
+            </div>
+
+            <div class="Descrição" id="Elegância">
+                <h3> Elegância em Movimento </h3>
+                <p> A RentAll Motors orgulha-se de sua frota exclusiva, composta por modelos icônicos das três marcas de
+                    automóveis alemãs mais prestigiadas. Desde os designs vanguardistas da Audi até a elegância
+                    atemporal da Mercedes-Benz, passando pela performance incomparável da BMW, cada veículo em nossa
+                    frota é uma obra-prima de engenharia automotiva, refinamento e sofisticação. 
+                </p>
+            </div>
+
+            <div class="Descrição" id="Reserve">
+                <h3> Reserve sua Experiência Única </h3>
+                <p> Na RentAll Motors, não alugamos apenas carros de luxo; proporcionamos uma experiência inesquecível.
+                    Esteja você explorando uma cidade vibrante, participando de um evento exclusivo ou simplesmente
+                    desejando viver o luxo ao volante, estamos aqui para transformar sua jornada em algo extraordinário.
+                    Descubra o prazer de dirigir com a "RentAll Motors" - onde a elegância encontra a estrada. 
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <section id="Novidades">
+            <p class="negrito"> Deseja Receber Novidades? </p>
+            <div>
+                <input id="firstname" type="text" name="firstname" placeholder="Digite o seu email" />
+                <button type="button" id="BotaoForm"> Enviar </button>
+            </div>
+        </section>
+
+        <section class="RedesSociais">
+            <div id="FaleConosco">
+                <p class="negrito"> Fale conosco </p>
+                <div id="OrganizarRedesSociais">
+                    <div onclick="window.location.href='mailto:rentallmotorsbsb@gmail.com'">
+                        <img src="Images/Email.png" id="email" class="social" />
+                    </div>
+                    
+                    <div onclick="window.location.href='https://wa.me/5561999522811'">
+                        <img src="Images/Whatsapp.png" id="whatsapp" class="social" />
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="RedesSociais">
+            <p class="negrito"> Redes Sociais </p>
+            <div id="OrganizarRedesSociais">
+                <div id="instagram" onclick="window.location.href='https://www.instagram.com/rentall_motors/'">
+                    <img src="Images/Instagram.png" class="social" />
+                </div>
+            </div>
+        </section>
+    </footer>
+
+</body>
+
+</html>
